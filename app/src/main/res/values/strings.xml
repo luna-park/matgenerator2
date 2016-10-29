@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Генератор мата</string>
+    <string name="btn_generate">Создать</string>
+    <string name="btn_speech">Вслух</string>
+    <string name="hint_copy">скопирован в буфер обмена</string>
+    <string name="txt_info">"Powered by iSpeech\u00AE"</string>
+    <string name="txt_quit">Закрыть приложение?</string>
+    <string name="chk_speech">Авто</string>
+    <string name="hint">\u002a Требуется подключение к Интернет</string>
+    <string name="radio_male">EXT.</string>
+    <string name="radio_female">INT.</string>
+    <string name="label_voice">Голос</string>
+    <string name="label_copy">Копировать</string>
+    <string name="label_init">Инициализация</string>
+    <string name="label_download">Установить данные для женского голоса</string>
+
+    <string-array name="adjective_pt_1">
+        <item>Бздливо</item>
+        <item>Блядо</item>
+        <item>Бомже</item>
+        <item>Глухо</item>
+        <item>Гнидо</item>
+        <item>Гнило</item>
+        <item>Гнусно</item>
+        <item>Говно</item>
+        <item>Грешно</item>
+        <item>Днище</item>
+        <item>Долбо</item>
+        <item>Дроче</item>
+        <item>Дрыще</item>
+        <item>Ебли</item>
+        <item>Ебло</item>
+        <item>Жопо</item>
+        <item>Залупо</item>
+        <item>Зло</item>
+        <item>Кало</item>
+        <item>Козло</item>
+        <item>Косо</item>
+        <item>Криво</item>
+        <item>Манда</item>
+        <item>Мразе</item>
+        <item>Мудо</item>
+        <item>Очко</item>
+        <item>Пердо</item>
+        <item>Пидо</item>
+        <item>Пиздо</item>
+        <item>Ското</item>
+        <item>Сопле</item>
+        <item>Срако</item>
+        <item>Страхо</item>
+        <item>Суче</item>
+        <item>Тупо</item>
+        <item>Херо</item>
+        <item>Хитро</item>
+        <item>Хуе</item>
+        <item>Чушко</item>
+        <item>Шлюхо</item>
+        <item>Яйце</item>
+    </string-array>
+    <string-array name="adjective_pt_2">
+        <item>блядский</item>
+        <item>вонный</item>
+        <item>глазый</item>
+        <item>глупый</item>
+        <item>головый</item>
+        <item>ёбкий</item>
+        <item>ебливый</item>
+        <item>ебучий</item>
+        <item>жалкий</item>
+        <item>жирный</item>
+        <item>жопый</item>
+        <item>задый</item>
+        <item>крылый</item>
+        <item>мудый</item>
+        <item>ногий</item>
+        <item>пердёжный</item>
+        <item>пиздый</item>
+        <item>ротый</item>
+        <item>рукий</item>
+        <item>рылый</item>
+        <item>сраный</item>
+        <item>ссаный</item>
+        <item>ссущий</item>
+        <item>страшный</item>
+        <item>сучий</item>
+        <item>тухлый</item>
+        <item>хуёвый</item>
+    </string-array>
+
+    <string-array name="noun_pt_2">
+        <item>бздун</item>
+        <item>блядь</item>
+        <item>гад</item>
+        <item>глист</item>
+        <item>грыз</item>
+        <item>дав</item>
+        <item>дрист</item>
+        <item>дрот</item>
+        <item>дрыщ</item>
+        <item>ёб</item>
+        <item>еблан</item>
+        <item>ёбок</item>
+        <item>жоп</item>
+        <item>жуй</item>
+        <item>завр</item>
+        <item>звон</item>
+        <item>крыл</item>
+        <item>лох</item>
+        <item>пёр</item>
+        <item>пидр</item>
+        <item>плёт</item>
+        <item>прыщ</item>
+        <item>пут</item>
+        <item>сос</item>
+        <item>сран</item>
+        <item>тряс</item>
+        <item>фил</item>
+        <item>фоб</item>
+        <item>хлоп</item>
+        <item>хлыст</item>
+        <item>хмырь</item>
+        <item>хуй</item>
+        <item>чёс</item>
+        <item>чмырь</item>
+        <item>шлёп</item>
+        <item>ящер</item>
+    </string-array>
+    <string-array name="noun_whole">
+        <item>уёбок</item>
+        <item>мудак</item>
+        <item>пидарас</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvSave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvResult"
+        android:layout_alignParentTop="true"
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:id="@+id/mainButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="96dip"
+            android:text="@string/btn_generate" />
+
+        <Button
+            android:id="@+id/btnSpeech"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_speech" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/smallButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainButtons">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@android:drawable/ic_menu_save"
+            android:textAppearance="?android:attr/textAppearanceButton" />
+
+        <ToggleButton
+            android:id="@+id/tBtnAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="@string/chk_speech"
+            android:textOn="@string/chk_speech" />
+
+        <ToggleButton
+            android:id="@+id/tBtnVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textOff="@string/radio_female"
+            android:textOn="@string/radio_male" />
+
+        <Button
+            android:id="@+id/btnCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="?android:attr/actionModeCopyDrawable"
+            android:textAppearance="?android:attr/textAppearanceButton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDownload"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvInfo"
+        android:drawableLeft="@android:drawable/stat_sys_download_done"
+        android:text="@string/label_download"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/txt_info"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mainButtons"
+        android:background="@drawable/screen"
+        android:gravity="center_vertical|center"
+        android:text="@string/hint"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold" />
+
+</RelativeLayout>
